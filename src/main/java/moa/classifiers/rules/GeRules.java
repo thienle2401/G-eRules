@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package uk.ac.rdg.bdata.gerules;
+package moa.classifiers.rules;
 
 import java.util.ArrayList;
 import java.util.Arrays;
