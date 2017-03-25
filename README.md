@@ -21,8 +21,8 @@ You can also find guides about create ARFF file on-the-fly or covert csv format 
 
 #### Dependencies
 
-* Weka-package (04/2016)
-* MOA (04/2016)
+* MOA (11.2014)
+* Weka-package (version that is associated with MOA (11.2014))
 * Commons Math 3.6
 
 #### Create a Rules Library from ARFF
@@ -49,11 +49,13 @@ public static void main(String[] args) throws Exception {
     
     // train a G-eRules model and create a set of desciptive rules
     for (Instance instance : Collections.list(data.enumerateInstances())) {
-         // add a data instance to a window
-         gErules.trainOnInstanceImpl(instance);
+
+        // this function is here to trigger the real-time adaptaion
+        gErules.getVotesForInstance(anInstance)
+ 
+        // add a data instance to a window
+        gErules.trainOnInstanceImpl(instance);
          
-         // this function is here to trigger the real-time adaptaion
-         gErules.getVotesForInstance(anInstance)
     }
 	
     // get an instance from training set
