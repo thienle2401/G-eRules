@@ -2,7 +2,7 @@
 G-eRules is a streaming classification algorithm. the G stands for the the use of the Gaussian distribution and the algorithm incorporate a new method for continuous attribute. Data stream classification is one of the most important DSM technique allowing to classifiy previously unseen data isntances. Different to traditinal classifiers for static data, data stream classifiers need to adapt to concept changes (concept drift) in the stream in real-time in order to reflect the most recent concept in the data as accurately as possible.
 
 The implementation was used to carry out the experiment as presented in:
-> _"Thien Le, Frederic Stahl, João Gomes, Mohamed Medhat Gaber, Giuseppe Di Fatta. Computationally Efficient Rule-Based Classification for Continuous Streaming Data"._
+> _"Thien Le, Frederic Stahl, Joao Gomes, Mohamed Medhat Gaber, Giuseppe Di Fatta (2014) Computationally Efficient Rule-Based Classification for Continuous Streaming Data. In Proceedings of the Thirty-Fourth SGAI International Conference on Innovative Techniques and Applications of Artificial Intelligence, Cambridge. Springer, pp 21-34. ISBN 978-3-319-12068-3 doi: 10.1007/978-3-319-12069-0_2"._
 
 
 ## Getting Started
@@ -85,7 +85,7 @@ Other contributors who participated in this project:
 
 * Frederic Stahl, University of Reading
 * Mohamed Medhat Gaber, Birmingham City University
-* João Gomes, DataRobot, Inc.
+* Joao Gomes, DataRobot, Inc.
 
 ## Acknowledgments
 This development and the research has been supported by the UK Engineering, and Physical Sciences Research Council (EPSRC) grant EP/M016870/1.
